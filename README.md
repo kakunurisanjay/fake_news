@@ -1,0 +1,92 @@
+simple fake news detector
+with the help of the dataset I have trained the model
+results:
+TF-IDF Vectorizer Accuracy: 0.857
+Confusion matrix, without normalization
+Confusion Matrix for TF-IDF Vectorizer:
+[[ 739  269]
+ [  31 1052]]
+Count Vectorizer Accuracy: 0.893
+Confusion matrix, without normalization
+Confusion Matrix for Count Vectorizer:
+[[ 865  143]
+ [  80 1003]]
+TF-IDF Vectorizer Accuracy (Passive Aggressive Classifier): 0.933
+Confusion matrix, without normalization
+Confusion Matrix for TF-IDF Vectorizer (Passive Aggressive Classifier):
+[[ 950   58]
+ [  82 1001]]
+ 
+Alpha: 0.10 Score: 0.89766
+Alpha: 0.20 Score: 0.89383
+Alpha: 0.30 Score: 0.89000
+Alpha: 0.40 Score: 0.88570
+Alpha: 0.50 Score: 0.88427
+Alpha: 0.60 Score: 0.87470
+Alpha: 0.70 Score: 0.87040
+Alpha: 0.80 Score: 0.86609
+Alpha: 0.90 Score: 0.85892
+Top 30 features for class FAKE:
+-4.941786585962089 2016
+-4.169330669528264 october
+-4.061918111854566 hillary
+-3.0023778129037737 share
+-2.894788230990056 article
+-2.846594129501185 november
+-2.610964000316526 email
+-2.6062585372443174 oct
+-2.5999493540566596 print
+-2.2520813889588887 advertisement
+-2.2059414440211604 war
+-2.2011063183974726 podesta
+-2.1269563050968765 source
+-2.0859819758144478 mosul
+-2.0546473808264465 election
+-2.010265993506343 establishment
+-1.9489876578864458 wikileaks
+-1.8644451902279306 donald
+-1.8596302373577336 26
+-1.8426594505657201 pipeline
+-1.8408855285226209 nov
+-1.8328899156694771 jewish
+-1.758987920748396 com
+-1.7530147120486002 corporate
+-1.7362109702359811 snip
+-1.7103337526610665 elect
+-1.673108836704797 photo
+-1.67045236985186 ayotte
+-1.656579841403827 entire
+-1.6475312183447641 28
+
+Top 30 features for class REAL:
+4.712290483499289 said
+2.713900259776659 tuesday
+2.7007422053268644 says
+2.604877348088309 cruz
+2.476970194790414 conservative
+2.430324747028811 friday
+2.3305013334666893 islamic
+2.314999993302276 gop
+2.268640172310409 monday
+2.2361297799100828 marriage
+2.134085410909734 candidates
+2.1238867395414935 conservatives
+2.1213324364433315 rush
+2.0877374319030477 continue
+2.0764888784972104 sunday
+2.0430821995060855 jobs
+2.012019569701066 debate
+1.9850698559009285 attacks
+1.9340602615103324 group
+1.8742977432495946 convention
+1.8568310159808132 presumptive
+1.8490020081906076 fox
+1.8489721762870712 week
+1.8038962803736676 march
+1.7939128881807904 say
+1.7706685264783844 paris
+1.7629974668932324 deal
+1.7330587489816924 campaign
+1.7037803751809206 sen
+1.6953952450252445 church
+Hashing Vectorizer Accuracy: 0.902
